@@ -40,6 +40,6 @@
 - We then passed these feature vectors through an LSTM network which we trained to generate captions that describe the images.
 - We learned about the concept of transfer learning and how to use pre-trained models to improve performance. This is an important technique in deep learning where a model that has been trained on one task can be used as a starting point for a related task, allowing us to train models more quickly and with better performance.
 - We also learned about the architecture of LSTM and how it is used to generate captions. LSTMs are powerful models that are able to process sequential data and retain information over long periods of time. This makes them well-suited for tasks like caption generation where the output is a sequence of words.
-- We evaluated the performance of the model using metrics like BLEU, METEOR, ROUGE, and CIDEr. These metrics are commonly used to evaluate the quality of generated captions.
+- We evaluated the performance of the model using BLEU. These metrics are commonly used to evaluate the quality of generated captions.
 - Finally, we fine-tuned the model to improve performance by experimenting with different architectures, hyperparameters, and techniques like beam search. We also learned about other techniques like attention mechanism which can improve the performance of the caption generation model
 - Overall, this week gave us a comprehensive understanding of image caption generation and how to use pre-trained models, LSTMs and other techniques to improve performance.
